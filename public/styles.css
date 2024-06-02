@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #messageInput {
+    width: 60%;
+    padding: 8px;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  #sendButton {
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  #messageList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #messageList li {
+    margin-bottom: 5px;
+    padding: 8px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+  }
+  
+  #messageList li:nth-child(odd) {
+    background-color: #e0e0e0;
+  }
+  
